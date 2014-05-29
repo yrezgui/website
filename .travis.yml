@@ -23,8 +23,8 @@ cache:
 
 # http://docs.travis-ci.com/user/build-configuration/
 script:
-  - git config user.name "Travis-CI"
-  - git config user.email "mail+travis@putaindecode.fr"
+  - git config --global user.name "Travis-CI"
+  - git config --global user.email "mail+travis@putaindecode.fr"
   - npm run travis
 
 env:
